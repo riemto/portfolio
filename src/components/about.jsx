@@ -6,55 +6,41 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        {
+          id: "holistic_skill",
+          content: "Holistic view",
+          percentage: "100%",
+          value: "100"
+        },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          percentage: "100%",
+          value: "100"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          porcentage: "80%",
+          percentage: "80%",
           value: "80"
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
+          id: "NestJS_skill",
+          content: "NestJS",
+          percentage: "50%",
+          value: "50"
         }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I am a Senior Software Engineer who is interested in Full Stack Development. I am most comfortable working with Node.js, JavaScript and React as well as Nest.js, Next.js and tools around that tech stack."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "In my next role, I would like to develop frontend and backend software, help the team grow and influence the product by providing new ideas."
         }
       ]
     };
@@ -92,13 +78,13 @@ class About extends React.Component {
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
                             <span className="pull-right">
-                              {skill.porcentage}
+                              {skill.percentage}
                             </span>
                             <div className="progress">
                               <div
                                 className="progress-bar"
                                 role="progressbar"
-                                style={{ width: skill.porcentage }}
+                                style={{ width: skill.percentage }}
                                 aria-valuenow={skill.value}
                                 aria-valuemin="0"
                                 aria-valuemax="100"
