@@ -152,7 +152,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #303849;
+  background-color: #f5cf55;
   margin: 0 auto;
 }
 
@@ -171,7 +171,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #303849;
+  background-color: #f5cf55;
   width: 100px;
   bottom: -12px;
 }
@@ -356,7 +356,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #303849;
+  border-top: 6px solid #f5cf55;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -477,7 +477,7 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #303849;
+  background-color: #f5cf55;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
@@ -488,7 +488,7 @@ NAVBAR
 .navbar-b.navbar-reduce .active>.nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #303849;
+  color: #f5cf55;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
