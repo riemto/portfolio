@@ -1,14 +1,13 @@
 import React from "react";
-import Skills from "./Skills";
-
+import Project from "./Project";
 //import stock
-import vcc from "../img/vcc.png";
 import stock from "../img/image1.jpg";
 import stock1 from "../img/image2.jpg";
 import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
+import vcc from "../img/vcc.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -29,72 +28,21 @@ class Portfolio extends React.Component {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
-                  <div className="work-img">
-                    <img src={vcc} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-10">
-                        <h2 className="w-title"><a href="https://www.virtual-coffee-chat.com/">Virtual Coffee Chat</a></h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            <Skills skills={[
-                              "VanillaJS",
-                              "ExpressJS",
-                              "MongoDB",
-                              "socket.io",
-                              "Bootstrap"
-                            ]} />
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-2">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-              </div>
+              <Project
+                title="Virtual Coffee Chat"
+                skills={[
+                  "VanillaJS",
+                  "ExpressJS",
+                  "MongoDB",
+                  "socket.io",
+                  "Bootstrap"
+                ]}
+                coverImage={vcc}
+                images={[stock, stock1]}
+                href="https://www.virtual-coffee-chat.com/"
+              />
             </div>
+
             <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-medlingos">
