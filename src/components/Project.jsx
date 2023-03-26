@@ -33,7 +33,7 @@ function Project({ title, skills, coverImage, images, href }) {
                 </div>
             </a >
             <div className="Project-work-content">
-                <a id="Project-link" href={href}>Go to page</a>
+                <a id="Project-link" href={href} target="_blank">Go to app</a>
             </div>
             {
                 images.map((image, index) => {
