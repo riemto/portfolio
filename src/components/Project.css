@@ -24,9 +24,9 @@
     float: right;
 }
 
-.Project-work-content .Project-w-like a {
+/* .Project-work-content .Project-w-like a {
     color: #303849;
-}
+} */
 
 .Project-work-content .Project-w-like .Project-num-like {
     font-size: .7rem;
@@ -37,4 +37,9 @@
 }
 
 
-. .img-description {}
+#Project-link {
+    background-color: "#f5cf55";
+    padding: "1rem";
+    border-radius: 0.5rem;
+    color: "pink";
+}

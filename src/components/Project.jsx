@@ -8,13 +8,16 @@ function Project({ title, skills, coverImage, images, href }) {
         <div className="Project-work-box">
             <a href={images[0] || "#"} data-lightbox="gallery-vmarine">
                 <ImageWithHoverDescription src={coverImage}>
-                    <p> > 10000 lines of code</p>
+                    <p>61% JavaScript (>6000 lines of code)</p>
+                    <p>31% EJS (>2000 lines of code)</p>
+                    <p>8% CSS</p>
+                    <p>920 commits</p>
                 </ImageWithHoverDescription>
 
                 <div className="Project-work-content">
                     <div className="row">
                         <div className="col-sm-10">
-                            <h2 className="Project-w-title"><a href={href}>{title}</a></h2>
+                            <h2 className="Project-w-title">{title}</h2>
                             <div className="Project-w-more">
                                 <span className="Project-w-ctegory">
                                     <Skills skills={skills} />
@@ -29,6 +32,9 @@ function Project({ title, skills, coverImage, images, href }) {
                     </div>
                 </div>
             </a >
+            <div className="Project-work-content">
+                <a id="Project-link" href={href}>Go to page</a>
+            </div>
             {
                 images.map((image, index) => {
                     if (index == 0) {
