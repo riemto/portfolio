@@ -1,5 +1,5 @@
 import React from "react";
-import Skill from "./Skill";
+import Skills from "./Skills";
 
 //import stock
 import vcc from "../img/vcc.png";
@@ -36,19 +36,21 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="work-content">
                     <div className="row">
-                      <div className="col-sm-8">
+                      <div className="col-sm-10">
                         <h2 className="w-title"><a href="https://www.virtual-coffee-chat.com/">Virtual Coffee Chat</a></h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            <Skill>VanillaJS</Skill>
-                            <Skill>ExpressJS</Skill>
-                            <Skill>MongoDB</Skill>
-                            <Skill>socket.io</Skill>
-                            <Skill>Bootstrap</Skill>
+                            <Skills skills={[
+                              "VanillaJS",
+                              "ExpressJS",
+                              "MongoDB",
+                              "socket.io",
+                              "Bootstrap"
+                            ]} />
                           </span>
                         </div>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-2">
                         <div className="w-like">
                           <span className="ion-ios-plus-outline"></span>
                         </div>
