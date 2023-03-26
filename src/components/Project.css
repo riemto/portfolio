@@ -1,0 +1,40 @@
+.Project-work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+}
+
+.Project-work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+
+.Project-work-content .w-more {
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+
+.Project-work-content .Project-w-more .Project-w-ctegory {
+    color: #303849;
+}
+
+.Project-work-content .Project-w-like {
+    font-size: 2.5rem;
+    color: #303849;
+    float: right;
+}
+
+.Project-work-content .Project-w-like a {
+    color: #303849;
+}
+
+.Project-work-content .Project-w-like .Project-num-like {
+    font-size: .7rem;
+}
+
+.Project-w-title {
+    font-size: 1.2rem;
+}
+
+
+. .img-description {}

@@ -1,0 +1,44 @@
+/* relevant styles */
+.img__wrap {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.img__img {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #303849;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.img__description {
+    transition: .2s;
+    transform: translateY(1em);
+    text-align: center;
+}
+
+.img__wrap:hover .img__description {
+    transform: translateY(0);
+}
