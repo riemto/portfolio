@@ -26,17 +26,21 @@
 
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
+
+    width: 100%;
 }
 
 .img__wrap:hover .img__description_layer {
     visibility: visible;
-    opacity: 0.8;
+    opacity: 0.94;
 }
 
 .img__description {
     transition: .2s;
     transform: translateY(1em);
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 .img__wrap:hover .img__description {

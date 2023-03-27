@@ -1,0 +1,10 @@
+.MiniDashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.MiniDashboard-kpi {
+    height: 100%;
+}

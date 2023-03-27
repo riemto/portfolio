@@ -1,0 +1,16 @@
+.KPI {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.KPI-name {
+    font-size: 1rem;
+}
+
+.KPI-value {
+    font-size: 3rem;
+}

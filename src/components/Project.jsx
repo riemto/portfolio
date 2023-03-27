@@ -1,6 +1,7 @@
 import React from 'react'
 import Skills from "./Skills";
 import ImageWithHoverDescription from "./ImageWithHoverDescription"
+import MiniDashboard from './MiniDashboard';
 import "./Project.css";
 
 function Project({ title, skills, coverImage, images, href }) {
@@ -8,10 +9,36 @@ function Project({ title, skills, coverImage, images, href }) {
         <div className="Project-work-box">
             <a href={images[0] || "#"} data-lightbox="gallery-vmarine">
                 <ImageWithHoverDescription src={coverImage}>
-                    <p>61% JavaScript (>6000 lines of code)</p>
-                    <p>31% EJS (>2000 lines of code)</p>
-                    <p>8% CSS</p>
-                    <p>920 commits</p>
+                    <MiniDashboard kpis={[
+                        {
+                            name: "registered users",
+                            value: 300,
+                            prefix: ">"
+                        },
+                        // {
+                        //     name: "from",
+                        //     prefix: ">",
+                        //     value: 100,
+                        //     suffix: "countries"
+                        // },
+                        // {
+                        //     name: "average rating",
+                        //     value: 4.7,
+                        //     suffix: "★"
+                        // },
+                        {
+                            name: "lines of code",
+                            value: 10000,
+                            prefix: ">"
+                        },
+                        {
+                            name: "commits",
+                            value: 900,
+                            prefix: ">"
+                        }
+                    ]}
+                        color="#f5cf55"
+                    />
                 </ImageWithHoverDescription>
 
                 <div className="Project-work-content">
