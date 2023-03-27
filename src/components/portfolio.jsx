@@ -40,6 +40,35 @@ class Portfolio extends React.Component {
                 coverImage={vcc}
                 images={[stock, stock1]}
                 href="https://www.virtual-coffee-chat.com/"
+                description={"Icebreaker game that helps remote teams getting to know each other better."}
+                kpis={[
+                  {
+                    name: "registered users",
+                    value: 300,
+                    prefix: ">"
+                  },
+                  // {
+                  //     name: "from",
+                  //     prefix: ">",
+                  //     value: 100,
+                  //     suffix: "countries"
+                  // },
+                  // {
+                  //     name: "average rating",
+                  //     value: 4.7,
+                  //     suffix: "★"
+                  // },
+                  {
+                    name: "lines of code",
+                    value: 10000,
+                    prefix: ">"
+                  },
+                  {
+                    name: "commits",
+                    value: 900,
+                    prefix: ">"
+                  }
+                ]}
               />
             </div>
 

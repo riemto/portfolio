@@ -24,6 +24,10 @@
     float: right;
 }
 
+.Project-w-description {
+    color: #303849;
+}
+
 /* .Project-work-content .Project-w-like a {
     color: #303849;
 } */
