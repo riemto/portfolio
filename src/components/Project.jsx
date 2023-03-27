@@ -28,8 +28,8 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
                     </div>
                 </div>
             </a >
-            {href && <div className="Project-work-content">
-                <a id="Project-link" href={href} target="_blank">Go to app</a>
+            {href && <div className="Project-work-content Project-footer">
+                <a href={href} target="_blank"><i className="fa fa-chevron-right"></i> Go to app</a>
             </div>}
             {
                 images.map((image, index) => {

@@ -28,6 +28,12 @@
     color: #303849;
 }
 
+.Project-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+}
+
 /* .Project-work-content .Project-w-like a {
     color: #303849;
 } */
@@ -38,12 +44,4 @@
 
 .Project-w-title {
     font-size: 1.2rem;
-}
-
-
-#Project-link {
-    background-color: "#f5cf55";
-    padding: "1rem";
-    border-radius: 0.5rem;
-    color: "pink";
 }
