@@ -5,9 +5,10 @@ import MiniDashboard from './MiniDashboard';
 import "./Project.css";
 
 function Project({ title, description, skills, coverImage, images, href, kpis }) {
+    const lightboxName = `gallery-${title}`;
     return (
         <div className="Project-work-box">
-            <a href={images[0] || "#"} data-lightbox="gallery-vmarine">
+            <a href={images[0] || "#"} data-lightbox={lightboxName}>
                 <ImageWithHoverDescription src={coverImage}>
                     <MiniDashboard kpis={kpis}
                         color="#f5cf55"
@@ -39,10 +40,11 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
                         return (
                             <a
                                 href={image}
-                                data-lightbox="gallery-vmarine"
-                                style={{ display: "none" }}
+                                data-lightbox={lightboxName}
+                                style={{ display: "none" }
+                                }
                             >
-                                jsx-a11y/anchor-has-content warning
+                                jsx - a11y / anchor - has - content warning
                             </a>
                         )
                     }

@@ -4,7 +4,9 @@ import stock2 from "./img/image3.jpg";
 import stock3 from "./img/image4.jpg";
 import stock4 from "./img/image5.jpg";
 import stock5 from "./img/image6.jpg";
-import vcc from "./img/vcc.png";
+import vcc_cover from "./img/vcc/cover.png";
+import vcc_1 from "./img/vcc/1.png";
+import vcc_2 from "./img/vcc/2.png";
 
 export default [
     {
@@ -12,13 +14,14 @@ export default [
         skills:
             [
                 "VanillaJS",
+                "NodeJS",
                 "ExpressJS",
                 "MongoDB",
                 "socket.io",
                 "Bootstrap"
             ],
-        coverImage: vcc,
-        images: [stock, stock1],
+        coverImage: vcc_cover,
+        images: [vcc_1, vcc_2],
         href: "https://www.virtual-coffee-chat.com/",
         description: "Icebreaker game that helps remote teams getting to know each other better.",
         kpis:
@@ -58,12 +61,14 @@ export default [
             "ReactJS",
             "NextJS",
             "MaterialUI",
+            "TypeScript",
+            "NodeJS",
             "NestJS",
             "MongoDB",
             "Cloudinary"
         ],
         coverImage: stock5,
-        images: [stock2, stock3],
+        images: [stock3],
         description: `Gamified alternative to photo boxes at weddings.
                 Get photo missions on your smartphone.
                 All guests can see the pictures in a gallery.
@@ -71,12 +76,12 @@ export default [
         kpis: [
             {
                 name: "lines of code",
-                value: 10000,
+                value: 3000,
                 prefix: ">"
             },
             {
                 name: "commits",
-                value: 900,
+                value: 100,
                 prefix: ">"
             }
         ]
