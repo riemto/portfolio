@@ -7,6 +7,7 @@ import stock5 from "./img/image6.jpg";
 import vcc_cover from "./img/vcc/cover.png";
 import vcc_1 from "./img/vcc/1.png";
 import vcc_2 from "./img/vcc/2.png";
+import vcc_analytics from "./img/vcc/analytics.png";
 
 export default [
     {
@@ -21,7 +22,7 @@ export default [
                 "Bootstrap"
             ],
         coverImage: vcc_cover,
-        images: [vcc_1, vcc_2],
+        images: [vcc_1, vcc_2, vcc_analytics],
         href: "https://www.virtual-coffee-chat.com/",
         description: "Icebreaker game that helps remote teams getting to know each other better.",
         kpis:
