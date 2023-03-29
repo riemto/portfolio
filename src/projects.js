@@ -8,6 +8,9 @@ import vcc_cover from "./img/vcc/cover.png";
 import vcc_1 from "./img/vcc/1.png";
 import vcc_2 from "./img/vcc/2.png";
 import vcc_analytics from "./img/vcc/analytics.png";
+
+import picturequest_gallery from "./img/picturequest/gallery.png";
+import picturequest_thankyou from "./img/picturequest/thankyou.png";
 // import buzzer_yellow from "./img/buzzzer/yellow_b.png";
 import buzzer_buzzers from "./img/buzzzer/buzzers.png";
 import buzzer_yellow from "./img/buzzzer/yellow.jpg";
@@ -75,8 +78,8 @@ export default [
             "MongoDB",
             "Cloudinary"
         ],
-        coverImage: stock5,
-        images: [stock3],
+        coverImage: picturequest_gallery,
+        images: [picturequest_thankyou],
         description: `Gamified alternative to photo boxes at weddings.
                 Get photo missions on your smartphone.
                 All guests can see the pictures in a gallery.
