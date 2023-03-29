@@ -39,7 +39,7 @@ class Jotform extends React.Component {
         )
       )
     `}>
-                          Send me a job description
+                          Reach out
                         </a>
                       </div>
                     </div>
