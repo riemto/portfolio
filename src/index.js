@@ -25,6 +25,7 @@ import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
+import Jotform from "./components/jotform.jsx";
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 
@@ -36,11 +37,11 @@ ReactDOM.render(
         <Intro />
         <About />
         <Portfolio />
-        <Contact />
+        <Jotform />
         <BackToTop />
         <Preloader />
     </React.Fragment>,
-document.getElementById('root'));
+    document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
