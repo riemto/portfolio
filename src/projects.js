@@ -33,7 +33,9 @@ export default [
         coverImage: vcc_cover,
         images: [vcc_1, vcc_2, vcc_analytics],
         href: "https://www.virtual-coffee-chat.com/",
-        description: "Icebreaker game that helps remote teams getting to know each other better.",
+        description: `Icebreaker game that helps remote teams getting to know each other better.
+        The host selects some icebreaker questions that everybody answers anonymously.
+        The answers then get shuffled and all players need to guess who said what.`,
         kpis:
             [
                 {
@@ -81,7 +83,7 @@ export default [
         images: [picturequest_mockup, picturequest_gallery4, picturequest_thankyou],
         description: `Gamified alternative to photo boxes at weddings.
                 Get photo missions on your smartphone.
-                All guests can see the pictures in a gallery.
+                The taken pictures are shared with all guests in a gallery.
                 `,
         kpis: [
             {
@@ -108,7 +110,10 @@ export default [
         ],
         coverImage: buzzer_buzzers,
         images: [buzzer_overview, buzzer_alice, buzzer_answer],
-        description: `Online Quiz where you can use your smartphone as buzzer.`,
+        description: `Online Quiz where you can use your smartphone as buzzer.
+        When someone hits the buzzer on the phone, all buzzers get locked
+        and show the player's name.
+        The host can go to next question to unlock all buzzers.`,
         kpis: [
             {
                 name: "lines of code",
