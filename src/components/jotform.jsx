@@ -20,7 +20,10 @@ class Jotform extends React.Component {
                         <h5 className="title-left">Contact</h5>
                       </div>
                       <div className="more-info">
-                        <p className="lead">Do you have a fitting position in mind?</p>
+                        <p className="lead">
+                          If you have a job in mind where you think I could be a good fit, then please fill out this short form.
+                          I will review the job description and then come back to you.
+                        </p>
                       </div>
                       <div>
                         <a
