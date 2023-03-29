@@ -11,6 +11,11 @@ import buzzer_alice from "./img/buzzzer/alice.png";
 import buzzer_answer from "./img/buzzzer/answer.png";
 import buzzer_overview from "./img/buzzzer/overview.png";
 
+import bitzy_motivation from "./img/bitzy/motivation-bit.png";
+import bitzy_settings from "./img/bitzy/settings.png";
+import bitzy_add_bits from "./img/bitzy/add_bits.png";
+import bitzy_affirmation from "./img/bitzy/affirmation-bit.png";
+
 export default [
     {
         title: "Virtual Coffee Chat",
@@ -111,6 +116,35 @@ export default [
             {
                 name: "commits",
                 value: 400,
+                prefix: ">"
+            }
+        ]
+    },
+    {
+        title: "Bitzy - One bit at a time",
+        skills: [
+            "JavaScript",
+            "ReactJS",
+            "MaterialUI",
+            "Firebase"
+        ],
+        coverImage: bitzy_motivation,
+        images: [bitzy_settings, bitzy_add_bits, bitzy_affirmation],
+        description: `Indoctrinate positive and powerful thoughts into your head through repetition.
+        Add your affirmations, quotes or values to your list.
+        The app will then show you one bit at a time, so that you see something new on every visit.
+        The repetition will help you memorize your positive phrases.
+        The small app is ideal as starting page.
+        `,
+        kpis: [
+            {
+                name: "lines of code",
+                value: 1500,
+                prefix: ">"
+            },
+            {
+                name: "commits",
+                value: 50,
                 prefix: ">"
             }
         ]
