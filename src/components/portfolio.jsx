@@ -13,13 +13,13 @@ class Portfolio extends React.Component {
                 <p className="subtitle-a">
                   Here is a short project overview I have been working on in my free time since 2021.
                 </p>
-                <div className="line-mf"></div>
               </div>
             </div>
           </div>
           <div className="row">
             {projects.map(project => (
               <div className="col-12" key={project.title}>
+                <div className="line-mf"></div>
                 <Project
                   {...project}
                 />
