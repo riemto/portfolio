@@ -18,6 +18,11 @@ import bitzy_settings from "./img/bitzy/settings.png";
 import bitzy_add_bits from "./img/bitzy/add_bits.png";
 import bitzy_affirmation from "./img/bitzy/affirmation-bit.png";
 
+import waitercall from "./img/waitercall/waitercall.png";
+import waitercall_nocalls from "./img/waitercall/no_calls.jpg";
+import waitercall_overview from "./img/waitercall/overview.jpg";
+import waitercall_phone from "./img/waitercall/phone.png";
+
 export default [
     {
         title: "Virtual Coffee Chat",
@@ -106,7 +111,7 @@ export default [
             "socket.io",
             "MaterialUI",
             "NodeJS",
-            "Express",
+            "ExpressJS",
         ],
         coverImage: buzzer_buzzers,
         images: [buzzer_overview, buzzer_alice, buzzer_answer],
@@ -152,6 +157,31 @@ export default [
             {
                 name: "commits",
                 value: 50,
+                prefix: ">"
+            }
+        ]
+    }, {
+        title: "Waiter Call",
+        skills: [
+            "JavaScript",
+            "ReactJS",
+            "socket.io",
+            "ExpressJS"
+        ],
+        coverImage: waitercall_nocalls,
+        images: [waitercall, waitercall_phone, waitercall_overview],
+        description: `
+            Waiting in a restaurant and no waiter in sight? Simply scan the QR code on the table and the waiter will be notified.
+        `,
+        kpis: [
+            {
+                name: "lines of code",
+                value: 200,
+                prefix: ">"
+            },
+            {
+                name: "commits",
+                value: 30,
                 prefix: ">"
             }
         ]
