@@ -8,6 +8,8 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
     const lightboxName = `gallery-${title}`;
     return (
         <div className="Project-work-box" key={title}>
+            <h3 className="title-b">{title}</h3>
+
             <a href={images[0] || "#"} data-lightbox={lightboxName}>
                 <ImageWithHoverDescription src={coverImage}>
                     <MiniDashboard kpis={kpis}
@@ -18,7 +20,6 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
                 <div className="Project-work-content">
                     <div className="row">
                         <div className="col-sm-12">
-                            <h2 className="Project-w-title">{title}</h2>
                             {description && <p className="Project-w-description">{description}</p>}
                             <div className="Project-w-more">
                                 <span className="Project-w-ctegory">

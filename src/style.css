@@ -149,6 +149,18 @@ a:hover {
   color: #4e4e4e;
 }
 
+.title-b {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.subtitle-b {
+  color: #4e4e4e;
+}
+
 .line-mf {
   width: 40px;
   height: 5px;
