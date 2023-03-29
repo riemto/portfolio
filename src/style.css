@@ -604,7 +604,8 @@ INTRO
 }
 
 .intro .overlay-intro {
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background-color: #303849;
   position: absolute;
   top: 0;
   left: 0px;
@@ -617,11 +618,11 @@ INTRO
 .intro .intro-title {
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .intro .intro-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -913,6 +914,7 @@ BUTTON
 }
 
 @media (min-width: 767px) {
+
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
