@@ -8,7 +8,7 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
     const lightboxName = `gallery-${title}`;
     return (
         <div className="Project-work-box" key={title}>
-            <h3 className="title-b">{title}</h3>
+            <h3 className="Project-title">{title}</h3>
 
             <a href={images[0] || "#"} data-lightbox={lightboxName}>
                 <ImageWithHoverDescription src={coverImage}>
