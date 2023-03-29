@@ -9,7 +9,7 @@ function MiniDashboard({ kpis, color }) {
                 color: color
             }}>
             {kpis.map(kpi => (
-                <KPI name={kpi.name} value={kpi.value} prefix={kpi.prefix} suffix={kpi.suffix} />
+                <KPI key={kpi.name} name={kpi.name} value={kpi.value} prefix={kpi.prefix} suffix={kpi.suffix} />
             ))}
         </div>
     )

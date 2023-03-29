@@ -7,7 +7,7 @@ import "./Project.css";
 function Project({ title, description, skills, coverImage, images, href, kpis }) {
     const lightboxName = `gallery-${title}`;
     return (
-        <div className="Project-work-box">
+        <div className="Project-work-box" key={title}>
             <a href={images[0] || "#"} data-lightbox={lightboxName}>
                 <ImageWithHoverDescription src={coverImage}>
                     <MiniDashboard kpis={kpis}
@@ -41,8 +41,8 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
                             <a
                                 href={image}
                                 data-lightbox={lightboxName}
-                                style={{ display: "none" }
-                                }
+                                style={{ display: "none" }}
+                                key={`image-${title}-${index}`}
                             >
                                 jsx - a11y / anchor - has - content warning
                             </a>

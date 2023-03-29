@@ -19,7 +19,7 @@ class Portfolio extends React.Component {
           </div>
           <div className="row">
             {projects.map(project => (
-              <div className="col-12">
+              <div className="col-12" key={project.title}>
                 <Project
                   {...project}
                 />

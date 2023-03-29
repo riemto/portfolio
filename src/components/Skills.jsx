@@ -6,7 +6,7 @@ function Skills({ skills }) {
         <div style={{
             margin: "1rem 0"
         }}>
-            {skills.map(skill => (<Skill>{skill}</Skill>))}
+            {skills.map((skill, index) => (<Skill key={index}>{skill}</Skill>))}
         </div>
     )
 }
