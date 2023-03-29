@@ -1,9 +1,3 @@
-import stock from "./img/image1.jpg";
-import stock1 from "./img/image2.jpg";
-import stock2 from "./img/image3.jpg";
-import stock3 from "./img/image4.jpg";
-import stock4 from "./img/image5.jpg";
-import stock5 from "./img/image6.jpg";
 import vcc_cover from "./img/vcc/cover.png";
 import vcc_1 from "./img/vcc/1.png";
 import vcc_2 from "./img/vcc/2.png";
@@ -11,7 +5,6 @@ import vcc_analytics from "./img/vcc/analytics.png";
 
 import picturequest_gallery from "./img/picturequest/gallery.png";
 import picturequest_thankyou from "./img/picturequest/thankyou.png";
-// import buzzer_yellow from "./img/buzzzer/yellow_b.png";
 import buzzer_buzzers from "./img/buzzzer/buzzers.png";
 import buzzer_yellow from "./img/buzzzer/yellow.jpg";
 import buzzer from "./img/buzzzer/buzzer.png";
