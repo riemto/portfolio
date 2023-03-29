@@ -392,6 +392,10 @@ a:hover {
 NAVBAR
 */
 
+.navbar-logo {
+  border-radius: 50%;
+}
+
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
