@@ -29,9 +29,13 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
                     </div>
                 </div>
             </a >
-            {href && <div className="Project-work-content Project-footer">
-                <a href={href} target="_blank"><i className="fa fa-chevron-right"></i> Go to app</a>
-            </div>}
+            <div className="Project-work-content Project-footer">
+                {href
+                    ? <a href={href} target="_blank"><i className="fa fa-chevron-right"></i> Go to app</a>
+                    : <span>App still in development. Not public yet.</span>
+                }
+
+            </div>
             {
                 images.map((image, index) => {
                     if (index == 0) {

@@ -1,5 +1,5 @@
 .Project-work-box {
-    margin-bottom: 3rem;
+    margin-bottom: 15rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background-color: #fff;
@@ -30,7 +30,7 @@
 
 .Project-footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding-top: 0;
 }
 
