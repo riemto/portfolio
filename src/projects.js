@@ -184,6 +184,12 @@ export default [
                 value: 30,
                 prefix: ">"
             }
-        ]
+        ],
+        href: "https://callwaiter.onrender.com/",
+        demoDescription: `
+            Open the link below in a new window. It shows either "no calls" or the table number of the guest.
+            To trigger it, simply click on the image above and scan one of the two QR codes.
+            A 7 or 12 will be shown on the waiter's screen, depending on your "table".
+        `
     }
 ]

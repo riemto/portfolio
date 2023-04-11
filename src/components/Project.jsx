@@ -4,8 +4,30 @@ import ImageWithHoverDescription from "./ImageWithHoverDescription"
 import MiniDashboard from './MiniDashboard';
 import "./Project.css";
 
-function Project({ title, description, skills, coverImage, images, href, kpis }) {
+function Project({ title, description, skills, coverImage, images, href, kpis, demoDescription }) {
     const lightboxName = `gallery-${title}`;
+
+    function ProjectFooter({ href, demoDescription }) {
+        if (!href) {
+            return (
+                <span>App still in development. Not public yet.</span>
+            )
+        }
+        if (demoDescription) {
+            return (
+                <div>
+                    <h5>Demo</h5>
+                    <div>{demoDescription}</div>
+                    <a href={href} target="_blank"><i className="fa fa-chevron-right"></i> Go to demo</a>
+                </div>
+            )
+        } else {
+            return (
+                <a href={href} target="_blank">< i className="fa fa-chevron-right"></i> Go to app</a >
+            )
+        }
+    }
+
     return (
         <div className="Project-work-box" key={title}>
             <h3 className="Project-title">{title}</h3>
@@ -31,11 +53,7 @@ function Project({ title, description, skills, coverImage, images, href, kpis })
                 </div>
             </a >
             <div className="Project-work-content Project-footer">
-                {href
-                    ? <a href={href} target="_blank"><i className="fa fa-chevron-right"></i> Go to app</a>
-                    : <span>App still in development. Not public yet.</span>
-                }
-
+                <ProjectFooter demoDescription={demoDescription} href={href} />
             </div>
             {
                 images.map((image, index) => {
