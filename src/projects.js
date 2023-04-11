@@ -3,9 +3,12 @@ import vcc_1 from "./img/vcc/1.png";
 import vcc_2 from "./img/vcc/2.png";
 import vcc_analytics from "./img/vcc/analytics.png";
 
-import picturequest_gallery from "./img/picturequest/gallery.png";
-import picturequest_thankyou from "./img/picturequest/thankyou.png";
-import picturequest_mockup from "./img/picturequest/mockup.jpg";
+import picturequest_join from "./img/picturequest/picquest_join.png";
+import picturequest_lobby from "./img/picturequest/picquest_lobby.png";
+import picturequest_quest from "./img/picturequest/picquest_quest.png";
+import picturequest_success from "./img/picturequest/picquest_success.png";
+import picturequest_gallery from "./img/picturequest/picquest_gallery.png";
+import picturequest_gallery_desktop from "./img/picturequest/gallery.png";
 import picturequest_gallery4 from "./img/picturequest/gallery4.png";
 
 import buzzer_buzzers from "./img/buzzzer/buzzers.png";
@@ -84,8 +87,8 @@ export default [
             "MongoDB",
             "Cloudinary"
         ],
-        coverImage: picturequest_gallery,
-        images: [picturequest_mockup, picturequest_gallery4, picturequest_thankyou],
+        coverImage: picturequest_gallery_desktop,
+        images: [picturequest_gallery4, picturequest_join, picturequest_lobby, picturequest_quest, picturequest_success, picturequest_gallery],
         description: `Gamified alternative to photo boxes at weddings.
                 Get photo missions on your smartphone.
                 The taken pictures are shared with all guests in a gallery.
