@@ -75,7 +75,7 @@ export default [
             ]
     },
     {
-        title: "Picture Quest",
+        title: "Fotari",
         skills: [
             "JavaScript",
             "ReactJS",
@@ -96,12 +96,12 @@ export default [
         kpis: [
             {
                 name: "lines of code",
-                value: 3000,
+                value: 6000,
                 prefix: ">"
             },
             {
                 name: "commits",
-                value: 100,
+                value: 600,
                 prefix: ">"
             }
         ]
