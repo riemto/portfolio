@@ -87,6 +87,7 @@ export default [
             "MongoDB",
             "Cloudinary"
         ],
+        href: "https://www.fotari.de/",
         coverImage: picturequest_gallery_desktop,
         images: [picturequest_gallery4, picturequest_join, picturequest_lobby, picturequest_quest, picturequest_success, picturequest_gallery],
         description: `Gamified alternative to photo boxes at weddings.
