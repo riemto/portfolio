@@ -74,9 +74,14 @@ export default [
         The answers then get shuffled and all players need to guess who said what.`,
         kpis:
             [
+                // {
+                //     name: "registered users",
+                //     value: 400,
+                //     prefix: ">"
+                // },
                 {
-                    name: "registered users",
-                    value: 400,
+                    name: "countries",
+                    value: 50,
                     prefix: ">"
                 },
                 // {
