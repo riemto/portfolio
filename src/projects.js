@@ -76,7 +76,7 @@ export default [
             [
                 {
                     name: "registered users",
-                    value: 300,
+                    value: 400,
                     prefix: ">"
                 },
                 // {
