@@ -4,7 +4,7 @@ import vcc_2 from "./img/vcc/2.png";
 import vcc_analytics from "./img/vcc/analytics.png";
 
 import fotari_action from "./img/picturequest/fotari-action.png";
-import fotari_aufgaben from "./img/picturequest/fotari-aufgaben.png";
+import fotari_aufgaben from "./img/picturequest/fotari-aufgaben2.png";
 
 import buzzer_buzzers from "./img/buzzzer/buzzers.png";
 import buzzer_alice from "./img/buzzzer/alice.png";
