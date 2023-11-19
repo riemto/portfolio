@@ -9,6 +9,8 @@ import picturequest_quest from "./img/picturequest/picquest_quest.png";
 import picturequest_success from "./img/picturequest/picquest_success.png";
 import picturequest_gallery from "./img/picturequest/picquest_gallery.png";
 import picturequest_gallery_desktop from "./img/picturequest/gallery.png";
+import fotari_action from "./img/picturequest/fotari-action.png";
+import fotari_aufgaben from "./img/picturequest/fotari-aufgaben.png";
 import picturequest_gallery4 from "./img/picturequest/gallery4.png";
 
 import buzzer_buzzers from "./img/buzzzer/buzzers.png";
@@ -27,6 +29,39 @@ import waitercall_overview from "./img/waitercall/overview.jpg";
 import waitercall_phone from "./img/waitercall/phone.png";
 
 export default [
+    {
+        title: "Fotari",
+        skills: [
+            "JavaScript",
+            "ReactJS",
+            "NextJS",
+            "MaterialUI",
+            "TypeScript",
+            "NodeJS",
+            "NestJS",
+            "MongoDB",
+            "Cloudinary"
+        ],
+        href: "https://www.fotari.de/",
+        coverImage: fotari_action,
+        images: [fotari_aufgaben],
+        description: `Gamified alternative to photo boxes at weddings.
+                Get photo missions on your smartphone.
+                The taken pictures are shared with all guests in a gallery.
+                `,
+        kpis: [
+            {
+                name: "lines of code",
+                value: 14000,
+                prefix: ">"
+            },
+            {
+                name: "commits",
+                value: 1000,
+                prefix: ">"
+            }
+        ]
+    },
     {
         title: "Virtual Coffee Chat",
         skills:
@@ -73,39 +108,6 @@ export default [
                     prefix: ">"
                 }
             ]
-    },
-    {
-        title: "Fotari",
-        skills: [
-            "JavaScript",
-            "ReactJS",
-            "NextJS",
-            "MaterialUI",
-            "TypeScript",
-            "NodeJS",
-            "NestJS",
-            "MongoDB",
-            "Cloudinary"
-        ],
-        href: "https://www.fotari.de/",
-        coverImage: picturequest_gallery_desktop,
-        images: [picturequest_gallery4, picturequest_join, picturequest_lobby, picturequest_quest, picturequest_success, picturequest_gallery],
-        description: `Gamified alternative to photo boxes at weddings.
-                Get photo missions on your smartphone.
-                The taken pictures are shared with all guests in a gallery.
-                `,
-        kpis: [
-            {
-                name: "lines of code",
-                value: 6000,
-                prefix: ">"
-            },
-            {
-                name: "commits",
-                value: 600,
-                prefix: ">"
-            }
-        ]
     },
     {
         title: "Buzzzer",
