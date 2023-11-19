@@ -3,15 +3,8 @@ import vcc_1 from "./img/vcc/1.png";
 import vcc_2 from "./img/vcc/2.png";
 import vcc_analytics from "./img/vcc/analytics.png";
 
-import picturequest_join from "./img/picturequest/picquest_join.png";
-import picturequest_lobby from "./img/picturequest/picquest_lobby.png";
-import picturequest_quest from "./img/picturequest/picquest_quest.png";
-import picturequest_success from "./img/picturequest/picquest_success.png";
-import picturequest_gallery from "./img/picturequest/picquest_gallery.png";
-import picturequest_gallery_desktop from "./img/picturequest/gallery.png";
 import fotari_action from "./img/picturequest/fotari-action.png";
 import fotari_aufgaben from "./img/picturequest/fotari-aufgaben.png";
-import picturequest_gallery4 from "./img/picturequest/gallery4.png";
 
 import buzzer_buzzers from "./img/buzzzer/buzzers.png";
 import buzzer_alice from "./img/buzzzer/alice.png";
