@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Here is a short project overview I have been working on in my free time since 2020.
+                  Here is a short project overview I have been working on in since 2020.
                 </p>
               </div>
             </div>
