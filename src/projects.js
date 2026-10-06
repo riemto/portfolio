@@ -134,18 +134,7 @@ export default [
     description: `
             Waiting in a restaurant and no waiter in sight? Simply scan the QR code on the table and the waiter will be notified.
         `,
-    kpis: [
-      {
-        name: "lines of code",
-        value: 200,
-        prefix: ">",
-      },
-      {
-        name: "commits",
-        value: 30,
-        prefix: ">",
-      },
-    ],
+    kpis: [{ name: "prototype" }],
     href: "https://callwaiter.onrender.com/",
     demoDescription: `
             Open the link below in a new window. It shows either "no calls" or the table number of the guest.
