@@ -111,7 +111,7 @@ export default [
         When someone hits the buzzer on the phone, all buzzers get locked
         and show the player's name.
         The host can go to next question to unlock all buzzers.`,
-    kpis: [],
+    kpis: [{ name: "prototype" }],
   },
   {
     title: "Bitzy - One bit at a time",
@@ -124,7 +124,7 @@ export default [
         The repetition will help you memorize your positive phrases.
         The small app is ideal as starting page.
         `,
-    kpis: [],
+    kpis: [{ name: "prototype" }],
   },
   {
     title: "Waiter Call",
