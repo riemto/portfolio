@@ -35,6 +35,14 @@
     padding-top: 0;
 }
 
+.Project-demo-image {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 1rem 0;
+}
+
 .Project-work-content .Project-w-like .Project-num-like {
     font-size: .7rem;
 }

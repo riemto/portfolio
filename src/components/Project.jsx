@@ -13,6 +13,7 @@ function Project({
   href,
   kpis,
   demoDescription,
+  demoImage,
 }) {
   const lightboxName = `gallery-${title}`;
 
@@ -25,6 +26,13 @@ function Project({
         <div>
           <h5>Demo</h5>
           <div>{demoDescription}</div>
+          {demoImage && (
+            <img
+              className="Project-demo-image"
+              src={demoImage}
+              alt={`${title} demo QR codes`}
+            />
+          )}
           <a href={href} target="_blank">
             <i className="fa fa-chevron-right"></i> Go to demo
           </a>
