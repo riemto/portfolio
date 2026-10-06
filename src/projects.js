@@ -67,7 +67,7 @@ export default [
     ],
     coverImage: vcc_cover,
     images: [vcc_1, vcc_2, vcc_analytics],
-    href: "https://www.virtual-coffee-chat.com/",
+    href: "https://vcb-production.up.railway.app/",
     description: `Icebreaker game that helps remote teams getting to know each other better.
         The host selects some icebreaker questions that everybody answers anonymously.
         The answers then get shuffled and all players need to guess who said what.`,
